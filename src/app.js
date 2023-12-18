@@ -42,7 +42,7 @@ const server = http.createServer(async (request, response) => {
     response.status = 200;
     response.statusMessage = "OK";
     response.header = "Content-Type: text/plain";
-    response.write("Hello, word!");
+    response.write("Hello, World!");
     response.end();
     return;
   }
